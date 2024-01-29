@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# A simple Calculator on ReactJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This project is a simple web-based calculator application built using ReactJS. The calculator provides a straightforward interface with numeric buttons (0-9) and standard arithmetic operators (+, -, *, /). Users can perform basic mathematical calculations, and the application includes functionality for addition, subtraction, multiplication, and division.
 
-In the project directory, you can run:
+## Key Features
 
-### `npm start`
+1. **User-Friendly Interface:**
+   - Clean and intuitive interface with a dedicated display area for input and results.
+   - Convenient arrangement of numeric buttons and operators for easy access.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Real-Time Calculation:**
+   - Dynamic, real-time calculation as users input numbers and operators.
+   - Results are displayed instantly, providing a smooth user experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **Error Handling:**
+   - Robust error handling to address potential issues during calculation (e.g., division by zero, invalid expressions).
+   - Displays an "Error" message in case of calculation errors.
 
-### `npm test`
+4. **Clear Functionality:**
+   - "C" button allows users to clear the current input, facilitating correction or starting a new calculation.
+   - Quick reset to zero for a fresh start.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. **Equals (=) for Result:**
+   - "=" button triggers the calculation of the entered expression and displays the result.
+   - Utilizes the `eval` function to dynamically evaluate expressions.
 
-### `npm run build`
+## How to Use
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Numeric Input:**
+   - Click on the numeric buttons (0-9) to input digits for your calculation.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Arithmetic Operators:**
+   - Use the buttons for addition (+), subtraction (-), multiplication (*), and division (/) for respective operations.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Equals (=) for Result:**
+   - Click on the "=" button to calculate and display the result of the entered expression.
 
-### `npm run eject`
+4. **Clear (C):**
+   - Press the "C" button to clear the current input and start a new calculation.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- ReactJS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- `App.js`: Main component managing the calculator layout and logic.
+- `Input.js`: Component for displaying the input and result.
+- `Button.js`: Component for rendering buttons and handling click events.
 
-## Learn More
+## Note
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project is designed for educational purposes, serving as a practical introduction to basic ReactJS concepts and state management.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## How do I start using it?
+Git commad for downloading a project:
+```bash
+git clone "https://github.com/Fonerge/Calculator.git"
+```
+The command to start the project:
+```
+cd .\Calculator\
+npm start
+```
+After this procedure, you should have a local server running on port 3000
+(http://localhost:3000/)
+## Warning!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Don't forget to install [NodeJS](https://nodejs.org/en) on your computer.
